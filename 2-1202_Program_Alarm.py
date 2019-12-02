@@ -39,7 +39,7 @@ import random
 rnd_memory = []
 def rnd():
   a, b = random.choice(range(100)), random.choice(range(100))
-  if len(rnd_memory) > 10000:
+  if len(rnd_memory) >= 10000:
     raise Exception('exceed')
   elif (a, b) in rnd_memory:
     return rnd()
