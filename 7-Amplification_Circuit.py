@@ -111,3 +111,6 @@ for phase_setting_sequences in itertools.permutations(range(5)):
     max_phase_setting_sequences = phase_setting_sequences
 
 print(max_thruster_signal, max_phase_setting_sequences)
+
+# Part2
+# b3140e100154000f8510f58ec54ddf51
